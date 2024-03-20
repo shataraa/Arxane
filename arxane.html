@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/dollar.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/music-note.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/inbox.css' rel='stylesheet'>
+    <link rel="stylesheet" href="arxane.css">
+    <title>Arxane's Card</title>
+</head>
+<body>
+    <video autoplay loop plays-inline class="bg_video">
+        <source src="bg_video.mp4" type="video/mp4">
+    </video>
+    <class class="container">
+        <img src="arsa.jpg" alt="">
+        <h2>Arxane</h2>
+        <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></ion-icon></span>
+           <div class="bungkus">
+            <ul class="list-link">
+                <li class="discord">
+                    <a href="https://discord.gg/jkzXvdFCJc">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p>Discord</p>
+                        <i class="gg-inbox"></i>
+                    </a>
+                </li>
+                <li class="email">
+                    <a href="https://tiktok.com/@arxunae">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p>TikTok</p>
+                        <i class="gg-music-note"></i>
+                    </a>
+                </li>
+                <li class="ig">
+                    <a href="https://saweria.co/arsain">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p>Saweria</p>
+                        <i class="gg-dollar"></i>
+                    </a>
+                </li>
+            </ul>
+           </div>
+        </div>
+    </class>
+</body>
+<footer class="footer">
+    &copy;<span id="year"> </span><span> Arxane</span>
+    <a href="https://github.com/shataraa">
+        <img src="25231.png" alt="">
+    </a>
+</footer>
+<script>
+    const tgl = new Date()
+    document.getElementById("year").innerHTML = tgl.getFullYear();
+    console.log(tgl)
+</script>
+</html>
