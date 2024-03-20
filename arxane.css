@@ -75,7 +75,7 @@ h2 {
 }
 .discord{
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: 50px;
     height: 70px;
     width: 370px;
 }
@@ -87,7 +87,7 @@ h2 {
     color: rgb(255, 255, 255);
     font-size: 25px;
     box-shadow: 0 0 10px black;
-    border-radius: 20px;
+    border-radius: 50px;
     font-weight: bold;
     padding: 15px;
     align-items: center;
@@ -165,7 +165,7 @@ h2 {
 .email{
     background-color: #ffffff00;
     backdrop-filter: blur(3px);
-    border-radius: 20px;
+    border-radius: 50px;
     height: 70px;
     width: 370px;
     
@@ -177,7 +177,7 @@ h2 {
     color: rgb(255, 255, 255);
     font-size: 25px;
     box-shadow: 0 0 10px black;
-    border-radius: 20px;
+    border-radius: 50px;
     font-weight: bold;
     padding: 15px;
     height: 70px;
@@ -206,7 +206,7 @@ h2 {
 .ig{
     background-color: #ffffff00;
     backdrop-filter: blur(3px);
-    border-radius: 20px;
+    border-radius: 50px;
     height: 70px;
     width: 370px;
     
@@ -216,7 +216,7 @@ h2 {
     justify-content: space-between;
     text-decoration: none;
     box-shadow: 0 0 10px black;
-    border-radius: 20px;
+    border-radius: 50px;
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: bold;
