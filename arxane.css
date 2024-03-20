@@ -269,8 +269,9 @@ h2 {
 
 .bg_video {
     position: absolute;
+    height: auto;
     right: 0;
     bottom: 0;
     z-index: -1;
-    
+
 }
