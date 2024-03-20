@@ -275,12 +275,16 @@ h2 {
     width: 100px;
 }
 
+.discord i{
+    margin-right: 20px;
+}
+
 .email i{
-    margin-right: 10px;
+    margin-right: 27px;
 }
 
 .ig i{
-    margin-right: 10px;
+    margin-right: 27px;
 }
 
 .bg_video {
