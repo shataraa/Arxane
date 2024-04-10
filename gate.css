@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gotham;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(Gotham-Font/GothamBook.ttf);
+}
+
+@font-face {
+    font-family: Title;
+    src: url(Gotham-Font/GothamBold.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    min-height: 100vh;
+    background: url(bg.png);
+    background-repeat: fixed;
+    background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: fixed;
+    top: 150px;
+}
+.profile {
+    width: 170px;
+    border-radius: 50%;
+}
+
+.carousel {
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.carousel-item img {
+    width: 100vw;
+    object-fit: cover;
+    height: 100vh;
+}
+
+h2 {
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Title;
+}
+.tentang p {
+    margin-top: 60px;
+    padding: 10px;
+    width: 950px;
+    font-weight: bold;
+    color: rgb(159, 3, 4);
+    text-align: center;
+    font-size: 25px;
+}
+.bungkus{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.list-link{
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+}
+.discord{
+    background-color: transparent;
+    border-radius: 50px;
+    height: 70px;
+    width: 370px;
+}
+.discord a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    backdrop-filter: blur(3px);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 15px;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+}
+
+.discord:hover{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    transition: .3s;
+    border-radius: 40px;
+    width: 500px;
+    height: 100px;
+}
+
+.discord a:hover{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px white;
+    color: white;
+    transition: .3s;
+    width: 500px;
+    border-radius: 40px;
+    height: 100px;
+}
+
+.discord:not(:hover) {
+    height: 70px;
+    transition: .3s;
+}
+
+.discord a:not(:hover) {
+    height: 70px;
+    transition: .3s;
+}
+
+.email:not(:hover) {
+    height: 70px;
+    transition: .3s;
+}
+
+.email a:not(:hover) {
+    height: 70px;
+    transition: .3s;
+}
+
+.ig:not(:hover) {
+    height: 70px;
+    transition: .3s;
+}
+
+.ig a:not(:hover) {
+    height: 70px;
+    transition: .3s;
+}
+
+.email:hover{
+    background-color: rgba(255, 255, 255, 0);
+    transition: .3s;
+    backdrop-filter: blur(10px);
+    height: 100px;
+    border-radius: 40px;
+    width: 500px;
+}
+
+.email a:hover{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    transition: .3s;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    height: 100px;
+    border-radius: 40px;
+}
+
+.email{
+    background-color: #ffffff00;
+    backdrop-filter: blur(3px);
+    border-radius: 50px;
+    height: 70px;
+    width: 370px;
+    
+}
+.email a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 15px;
+    height: 70px;
+    align-items: center;
+    width: 370px;
+}
+
+.ig:hover{
+    background-color: rgba(255, 255, 255, 0);
+    transition: .3s;
+    height: 100px;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    width: 500px;
+}
+
+.ig a:hover{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px white;
+    color: white;
+    transition: .3s;
+    width: 500px;
+    height: 100px;
+    border-radius: 40px;
+}
+
+.ig{
+    background-color: #ffffff00;
+    backdrop-filter: blur(3px);
+    border-radius: 50px;
+    height: 70px;
+    width: 370px;
+    
+}
+.ig a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    height: 70px;
+    align-items: center;
+    width: 370px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .footer img{
+    width: 30px;
+    margin-top: -1px;
+    margin-left: 10px;
+    padding: 1px 1px;
+  }
+
+.ig p{
+    width: 115px;
+}
+
+.email p{
+    width: 100px;
+}
+
+.discord i{
+    margin-right: 20px;
+}
+
+.email i{
+    margin-right: 27px;
+}
+
+.ig i{
+    margin-right: 27px;
+}
+
+.bg_video {
+    position: absolute;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.discord p{
+    margin: 0;
+}
+.email p{
+    margin: 0;
+}
+.ig p{
+    margin: 0;
+}
+
+.navigation {
+    position: fixed;
+    /* background: rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(30px); */
+    border-radius: 40px;
+    top: 10px;
+    left: 0;
+    width: 98%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 15px;
+    height: 110px;
+    z-index: 99;
+  }
+  
+  .navigation a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+  }
+  
+  .navigation a {
+    position: relative;
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    left: 50px;
+  }
+  
+  .navigation a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    bottom: -6px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    transform: scaleX(0);
+    transition: transform 0.2s;
+  }
+
+.nick-head{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.nick-head p{
+    color: white;
+    margin-left: 10px;
+    margin-top: 11px;
+    font-size: 1.0em;
+}
+
+.nick-head img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation a {
+        display: none;
+    }
+    .navigation a.icon {
+      float: right;
+      display: block;
+      
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 20px;
+    }
+    
+    
+    .navigation.responsive {
+        position: relative;
+        
+    }
+    .navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer{
+    font-size: 15px;
+  }
+}
+
+header {
+    position: fixed;
+    top: 10px;
+    left: -10;
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;    
+}
+
+.navigation i{
+    color: white;
+}
+.container img{
+    width: 200px;
+}
+
+.container p{
+    color: white;
+    margin-top: 100px;
+    font-size: 3em;
+    text-align: center;
+    font-family: title;
+}

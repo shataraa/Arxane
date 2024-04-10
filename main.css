@@ -229,6 +229,11 @@ h2 {
   header{
     display: none;
   }
+
+  .sec{
+    width: 70%;
+    font-size: .9em;
+  }
 }
 
 header {
@@ -236,7 +241,7 @@ header {
     top: 10px;
     left: -10;
     width: 100%;
-    padding: 20px 50px;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -244,5 +249,5 @@ header {
 }
 
 .navigation i{
-    color: white;
+    color: rgb(255, 255, 255);
 }
