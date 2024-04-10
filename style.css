@@ -37,7 +37,7 @@ body {
     align-items: center;
     padding: 0px;
     position: fixed;
-    top: 40px;
+    top: 150px;
 }
 .profile {
     width: 170px;
@@ -57,8 +57,6 @@ body {
     object-fit: cover;
     height: 100vh;
 }
-
-
 
 h2 {
     color: white;
@@ -306,4 +304,119 @@ h2 {
 }
 .ig p{
     margin: 0;
+}
+
+.navigation {
+    position: fixed;
+    /* background: rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(30px); */
+    border-radius: 40px;
+    top: 10px;
+    left: 0;
+    width: 98%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 15px;
+    height: 110px;
+    z-index: 99;
+  }
+  
+  .navigation a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+  }
+  
+  .navigation a {
+    position: relative;
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    left: 50px;
+  }
+  
+  .navigation a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    bottom: -6px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    transform: scaleX(0);
+    transition: transform 0.2s;
+  }
+
+.nick-head{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.nick-head p{
+    color: white;
+    margin-left: 10px;
+    margin-top: 11px;
+    font-size: 1.0em;
+}
+
+.nick-head img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation a {display: none;}
+    .navigation a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 20px;
+    }
+    .navigation.responsive {
+        position: relative;
+        
+    }
+    .navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer{
+    font-size: 15px;
+  }
+}
+
+header {
+    position: fixed;
+    top: 10px;
+    left: -10;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;    
+}
+
+.navigation i{
+    color: white;
 }
