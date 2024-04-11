@@ -23,7 +23,8 @@ body {
     height: 100px;
     align-items: center;
     min-height: 100vh;
-    background: url(bg.png);
+    background: url(bg.jpg);
+    backdrop-filter: blur(10px);
     background-repeat: fixed;
     background-attachment: fixed;
   background-position: center center;
@@ -37,7 +38,6 @@ body {
     align-items: center;
     padding: 0px;
     position: fixed;
-    top: 150px;
 }
 .profile {
     width: 170px;
@@ -60,7 +60,6 @@ body {
 
 h2 {
     color: white;
-    margin-top: 10px;
     font-size: 30px;
     font-family: Title;
 }
@@ -180,15 +179,20 @@ h2 {
     font-size:  4em;
     width: 100%;
     margin-right: 500px;
+    margin-top: 700px;
 }
 
-.sec p{
+.translate{
     color: white;
     width: 100%;
-    margin-right: 100px;
+    top: 0;
     font-size: 1.5em;
 }
 
+.sec p{
+  padding-top:  200px;
+  color: white;
+}
 .m{
   color: white;
   width: 100%;
@@ -226,13 +230,17 @@ h2 {
   .footer{
     font-size: 15px;
   }
-  header{
-    display: none;
-  }
 
   .sec{
     width: 70%;
     font-size: .9em;
+    margin-top: 250px;
+  }
+  .sec p{
+    margin-top: 170px;
+    color: white;
+    width: 350px;
+    padding-right: 50px;
   }
 }
 
