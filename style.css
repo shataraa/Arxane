@@ -410,43 +410,50 @@ h2 {
     }
 
     .discord a{
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none;
-        backdrop-filter: blur(3px);
-        color: rgb(255, 255, 255);
-        font-size: 25px;
-        box-shadow: 0 0 10px black;
-        border-radius: 50px;
-        font-weight: bold;
-        padding: 15px;
-        align-items: center;
         width: 260px;
-        height: 70px;
+        font-size: 1.4em;
     }
     .discord:hover{
-        transition: .3s;
-        border-radius: 40px;
-        width: 50px;
-        height: 50px;
+        width: 360px;
+        margin-right: 110px;
     }
     .discord a:hover{
-        width: 260px;
-        font-size: 30px;
+        width: 360px;
     }
+    .discord:not(:hover) {
+        height: 70px;
+        transition: .3s;
+    }
+
     .ig a{
         width: 260px;
         font-size: 1.4em;
     }
+    .ig a:hover{
+        width: 360px;
+    }
+    .ig:hover{
+        width: 360px;
+        margin-right: 110px;
+    }
     .ig p{
         margin-left: 20px;
+        width: 170px;
+    }
+    .email:hover{
+        width: 360px;
+        margin-right: 110px;
     }
     .email a{
         width: 260px;
         font-size: 1.4em;
     }
+    .email a:hover{
+        width: 360px;
+    }
     .email p{
         margin-left: 20px;
+        width: 100px;
     }
     .bungkus{
         margin-left: 100px;
